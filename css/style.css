@@ -669,7 +669,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(150, 150, 150, 0.5);
+    background: rgba(124, 124, 124, 0.3);
     transform: scale(0);
     transition-property: transform;
     transition-duration: 0.2s;
@@ -712,7 +712,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(4, 22, 48, 0.5);
+    background: rgba(0, 0, 1, 0.3);
     transform: scale(0);
     transition-property: transform;
     transition-duration: 0.2s;
@@ -753,7 +753,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(11, 53, 118, 0.5);
+    background: rgba(7, 32, 71, 0.3);
     transform: scale(0);
     transition-property: transform;
     transition-duration: 0.2s;
@@ -792,7 +792,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(20, 54, 142, 0.5);
+    background: rgba(14, 37, 98, 0.3);
     transform: scale(0);
     transition-property: transform;
     transition-duration: 0.2s;
@@ -829,7 +829,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(177, 200, 255, 0.5);
+    background: rgba(126, 164, 255, 0.3);
     transform: scale(0);
     transition-property: transform;
     transition-duration: 0.2s;
@@ -1726,7 +1726,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(7, 32, 71, 0.5);
+    background: rgba(2, 11, 24, 0.3);
     transform: scale(0);
     transition-property: transform;
     transition-duration: 0.2s;
@@ -2558,7 +2558,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 43, 94, 0.5);
+    background: rgba(4, 22, 48, 0.3);
     transform: scale(0);
     transition-property: transform;
     transition-duration: 0.2s;

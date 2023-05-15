@@ -22,7 +22,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(darken($btnBg, 10), 0.5);
+    background: rgba(darken($btnBg, 20), 0.3);
     transform: scale(0);
     transition-property: transform;
     transition-duration: 0.2s;
