@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" class="no-js">
+  <head>
+    <meta name="robots" content="noindex" />
+    <!-- 使用 noindex 禁止 Google 搜尋建立索引，套版時請工程師刪掉這行 -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>網站標題</title>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- favicon -->
+    <link href="images/favicon.png" rel="icon" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- 直接跳主內容區 -->
+    <a class="goCenter" href="#center" tabindex="1">按Enter到主內容區</a>
+    <!-- wrapper Start -->
+    <div class="wrapper system">
+      <!-- header Start -->
+      <header class="header">
+        <div class="container">
+          <h1>
+            <a href="index.html"><img src="images/logo_system.svg" alt="網站標題" /></a>
+          </h1>
+          <noscript>
+            您的瀏覽器不支援JavaScript語法，JavaScript語法並不影響內容的陳述。您可使用按鍵盤上的Ctrl鍵+ (+)鍵放大/(-)鍵縮小來改變字型大小；回到上一頁可使用瀏覽器提供的 Alt+左方向鍵(←) 快速鍵功能；列印可使用瀏覽器提供的(Ctrl+P)功能。您的瀏覽器，不支援script語法，若您的瀏覽器無法支援請點選此超連結
+            <a href="#">網站導覽</a>
+          </noscript>
+        </div>
+      </header>
+      <!-- header End -->
+      <!-- main Start -->
+      <main id="center" class="main">
+        <div class="container">
+          <div class="contentBlock">
+            <h2>註冊帳號</h2>
+            <div class="flexForm formGrid">
+              <div class="formGrp">
+                <div class="formTitle">Email</div>
+                <div class="formContent formInline">
+                  <input name="" type="email" value="" title="請輸入E-mail" placeholder="請輸入您的Email" class="inputGrow" />
+                  <button type="button" class="btn btnSecondary">檢查是否重複</button>
+                  <button type="button" class="btn btnPrimary">發送驗證碼</button>
+                </div>
+              </div>
+              <div class="formGrp">
+                <label for="" class="formTitle" aria-required="true">姓名</label>
+                <div class="formContent">
+                  <input name="" type="text" value="" title="請輸入姓名" placeholder="請輸入您的姓名" />
+                </div>
+              </div>
+              <div class="formGrp">
+                <label for="" class="formTitle" aria-required="true">登入帳號</label>
+                <div class="formContent">
+                  <input name="" type="text" value="" title="請輸入登入帳號" placeholder="請輸入4-10碼英數字" />
+                  <div class="notice">這是一般提醒訊息區塊</div>
+                  <div class="noticeWarning">
+                    格式不符
+                    <a role="button" href="#" aria-label="關閉" class="close"><img src="images/basic/icon_close.svg" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="formGrp">
+                <label for="password" class="formTitle" aria-required="true">密碼</label>
+                <div class="formContent">
+                  <div class="input_i">
+                    <input class="password" name="password" type="password" title="請輸入密碼" placeholder="密碼請輸入10-12碼英數字，需包含大寫" />
+                  </div>
+                </div>
+              </div>
+              <div class="formGrp">
+                <label for="password" class="formTitle" aria-required="true">密碼確認</label>
+                <div class="formContent">
+                  <div class="input_i">
+                    <input class="password" name="password" type="password" title="請輸入密碼" placeholder="需與密碼相同" />
+                  </div>
+                </div>
+              </div>
+              <div class="formGrp">
+                <label for="selectSample" class="formTitle">單位</label>
+                <div class="formContent">
+                  <select id="selectSample" name="">
+                    <option value="">項目一</option>
+                    <option value="">項目二</option>
+                    <option value="">項目三</option>
+                  </select>
+                </div>
+              </div>
+              <div class="formGrp">
+                <label for="" class="formTitle" aria-required="true">Email驗證碼</label>
+                <div class="formContent">
+                  <input name="" type="text" value="" title="請輸入Email驗證碼" placeholder="請輸入Email驗證碼" />
+                </div>
+              </div>
+              <div class="btnGrp formInline bottomBtn">
+                <button type="button" class="btn btnNormal">回後端管理系統</button>
+                <button type="button" class="btn btnSubmit">送出申請</button>
+                <button type="button" class="btn btnNormal">忘記密碼</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- main js-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
