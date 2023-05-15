@@ -56,6 +56,9 @@ body {
     line-height: 1.5em;
     font-size: 2em;
     text-align: center;
+    @include screen('mobile') {
+      font-size: 1.875em;
+    }
   }
 }
 .contentBlock {
@@ -66,7 +69,10 @@ body {
   border-radius: 4px;
   overflow: hidden;
   @include screen('tablet') {
-    padding: 30px;
+    padding: 20px 30px;
+  }
+  @include screen('mobile') {
+    padding: 20px;
   }
 }
 
